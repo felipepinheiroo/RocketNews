@@ -1,0 +1,139 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: 'League Spartan', 'Work Sans', sans-serif;
+
+    background: url(./assets/read_news.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    
+}
+
+  .container {
+    background-color: var(--body-bg-color);
+    width: 720px;
+    height: auto;
+}
+
+
+  .logo img {
+    height: 94px;
+    width: 389px;
+    
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+  .content {
+    margin-top: 92px;
+    margin-left: 36px;
+}
+
+  .content h2 {
+    font-family: 'Work Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--title-color);
+}
+
+  .content h3 {
+    font-family: 'League Spartan';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    padding-top: 9px;
+}
+
+  .container p {
+    font-family: 'League Spartan';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--text-color);
+
+    padding-top: 9px;
+}
+
+  .form-email {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 36px;
+
+    color: var(--form-color);
+    font-family: 'League Spartan';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+    #form {
+    width: 834px;
+    height: 48px;
+    margin-top: 50px;
+    margin-left: 36px;
+}
+
+    #form fieldset {
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+    fieldset > legend {
+    color: var(--form-color);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+    #form input {
+    margin-top: 17px;
+    width: 750px;
+    height: 48px;
+    border: none;
+    border-left: solid 5px var(--title-color);
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+    #form .btn-send {
+    margin-top: 17px;
+    background-color: #8257e5;
+    border: none;
+    width: 48px;
+    height: 48px;
+}
+
+    .news {
+    margin-left: 36px;
+    margin-top: 75px;
+}
+
+    .news a {
+    text-decoration: none;
+    color: var(--bg-button-color);
+    font-family: 'league Spartan';
+    font-size: 16px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+}
